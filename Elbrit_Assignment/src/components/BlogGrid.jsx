@@ -13,7 +13,7 @@ const BlogGrid = () => {
 
       {/* Blog Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-        {/* First Column */}
+       
         <div className="space-y-6">
           <BlogCard
             image="/Assets/blog1-450x580.jpg.png"
@@ -28,7 +28,7 @@ const BlogGrid = () => {
           />
         </div>
 
-        {/* Second Column */}
+        
         <div className="space-y-6">
           <BlogCard
             image="/Assets/blog1-450x580.jpg.png"
@@ -43,7 +43,7 @@ const BlogGrid = () => {
           />
         </div>
 
-        {/* Third Column */}
+        
         <div className="space-y-6">
           <BlogCard
             image="/Assets/blog1-450x580.jpg.png"
@@ -58,7 +58,7 @@ const BlogGrid = () => {
           />
         </div>
 
-        {/* Fourth Column */}
+       
         <div className="space-y-6">
           <BlogCard
             image="/Assets/blog1-450x580.jpg.png"
@@ -89,16 +89,16 @@ const BlogCard = ({ image, date, title, large = false }) => {
         className="absolute inset-0 w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
       />
       
-      {/* Gradient Overlay */}
+     
       <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent">
-        {/* Date Badge */}
+       
         <div className="absolute top-4 left-4">
           <span className="bg-blue-900 text-white text-xs px-3 py-1 rounded">
             {date}
           </span>
         </div>
         
-        {/* Title */}
+       
         <div className="absolute bottom-4 left-4 right-4">
           <h3 className="text-white font-semibold text-lg leading-tight">
             {title}

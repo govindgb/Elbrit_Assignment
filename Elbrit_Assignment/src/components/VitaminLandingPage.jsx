@@ -5,9 +5,8 @@ const VitaminLandingPage = () => {
   return (
     <div className="bg-sky-50 min-h-screen p-4 md:p-8">
       <div className="max-w-7xl mx-auto">
-        {/* Hero Section */}
+       
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 items-center mb-12">
-          {/* Left Content */}
           <div className="order-2 lg:order-1 space-y-6">
             <h1 className="text-4xl font-bold text-navy-900">Essential Vitamins</h1>
             <div className="space-y-4">
@@ -19,7 +18,6 @@ const VitaminLandingPage = () => {
             </div>
           </div>
 
-          {/* Middle Content - Vitamin Bottle */}
           <div className="order-1 lg:order-2 flex justify-center items-center">
             <div className="bg-yellow-100 rounded-lg p-6 w-64 h-64 md:w-80 md:h-80 flex items-center justify-center">
               <img
@@ -30,7 +28,6 @@ const VitaminLandingPage = () => {
             </div>
           </div>
 
-          {/* Right Content - Feature Pills */}
           <div className="order-3 space-y-4">
             {features.map((feature, index) => (
               <div 
@@ -49,7 +46,6 @@ const VitaminLandingPage = () => {
           </div>
         </div>
 
-        {/* Benefits Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 bg-teal-800 rounded-2xl p-6 md:p-8">
           {benefits.map((benefit, index) => (
             <div key={index} className="text-center text-white p-4 hover:bg-teal-700 rounded-xl transition-colors">
@@ -66,7 +62,6 @@ const VitaminLandingPage = () => {
   );
 };
 
-// Feature data
 const features = [
   {
     title: "Vitamins",

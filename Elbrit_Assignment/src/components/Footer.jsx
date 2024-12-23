@@ -24,9 +24,9 @@ const Footer = () => {
           />
         </div>
 
-        {/* Main Footer Content */}
+        
         <div className="grid md:grid-cols-2 gap-8 items-center mb-8">
-          {/* Logo Section */}
+         
           <div>
             <img
               src="/Assets/logo.jpg"
@@ -35,7 +35,7 @@ const Footer = () => {
             />
           </div>
 
-          {/* Company Description */}
+          
           <div className="text-gray-300 max-w-xl">
             <p>
               Your health, physical and emotional well-being is important 
@@ -45,7 +45,7 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Footer Bottom / Address */}
+       
         <div className="border-t border-teal-800 pt-6">
           <p className="text-sm text-gray-400">
             Elbrit Life Sciences Private Limited, C20, BKC, G Block, Mumbai 400051
